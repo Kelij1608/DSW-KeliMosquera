@@ -7,16 +7,42 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div   class="menu" style="font-weight: bold;" >
-        <a href="inicio.html"  style="color:  #F0B429;">Inicio</a>
-        <a href="conceptos.html" style="color: aliceblue;">Concepto</a>
-        <a href="masconceptos.html" style="color: aliceblue;">Mas conceptos</a>
-        <a href="recursos.html" style="color: aliceblue;">Recursos</a>
-        <a href="autoevaluacion.html" style="color: aliceblue;">Autoevaluaión</a>
-        <a href="autor.html" style="color: aliceblue;">Autor</a> 
+    <h1 class="title" style="color:#F0B429" >Contenido en HTML (SECCIÓN, AL LADO, PIE DE PIE, ARTÍCULO)</h1>
+    <div  id="header"  >
+        <ul class="menu">
+            <li> <a href="inicio.html"  style="color:  #F0B429;">Inicio</a></li>
+
+            <li><a href="conceptos.html" style="color: aliceblue;">Concepto</a>
+                <ul>
+                    <li><a href="masconceptos.html" style="color: aliceblue;">Mas conceptos</a></li>
+                </ul>
+            
+            </li>
+
+            <li><a href="recursos.html" style="color: aliceblue;">Recursos</a>
+                <ul>
+                    <li><a href="recursos01.html" style="color: aliceblue;">MasRecursos</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="autoevaluacion.html" style="color: aliceblue;">Autoevaluaión</a>
+                <ul>
+                    <li><a href="autoevaluacion01.html" style="color: aliceblue;"> Auto-Evaluación 2</a></li>
+                    <li><a href="evaluacion sitio.html" style="color: aliceblue;"> Evaluación Sitio</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="autor.html" style="color: aliceblue;">Autor</a></li>
+        </ul>
+        
+        
+         
+    </div>
+    
         <img src="unad.PNG" alt="logo unad " width="400"  eight="" >
     </div>
-    <h2 style="color: #F0B429;">Conceptos</h2>
+    <br>
+    <h2 style="color: #F0B429;">Conceptos</h2><br>
     <p> Anteriormente los desarrolladores de páginas usaban exhaustivamente la
         etiqueta div y/o el atributo class para tratar de separar y organizar en
         secciones el contenido de una página. Dado que el navegador cuando usa versiones
@@ -30,13 +56,13 @@
         comunes en el desarrollo de cualquier sitio Web. Finalmente llegó el momento de
         incorporar formalmente a todas esas entidades como parte del lenguaje y actualmente son parte de la nueva especificación de HTML5
         Arrancar con HTML,Emanuel Herrera Rios(2017)
-    </p>    
+    </p>    <br>
     <h2 style="color:#005883">
         Elementos Estructurales
-    </h2>
+    </h2> <br>
     <h2  style="color: #005883;">
         Article
-    </h2>
+    </h2><br>
     <p>
          La etiqueta con cierre article es como una página pequeña dentro de una
          página. Debe usarse para definir contenido autónomo e independiente, proveniente
@@ -50,7 +76,7 @@
     </center>
     
     
-    <h2  style="color: #005883;">Aside </h2>
+    <h2  style="color: #005883;">Aside </h2><br>
     <p>
          Cuando se desea colocar información en un fragmento de la página que está
          relacionado con el contenido principal, pero debe estar separado de él, se utiliza la
@@ -72,8 +98,8 @@
 
     <h2 style="color: #005883;"> 
         Footer 
-    </h2>
-    <p>La etiqueta ooter> se utiliza para representar el pie de página (en contexto de
+    </h2><br>
+    <p>La etiqueta footer> se utiliza para representar el pie de página (en contexto de
         una página Web). Se posiciona por supuesto en la parte inferior de la página,
         usualmente se utiliza este elemento para colocar información de derechos de autor,
         información de contacto o créditos.
@@ -84,13 +110,13 @@
 
         <center>
             <img src="footers.PNG" alt="footers">
-        </center>
+        </center><br>
             
 
-    <h2>
-        Section 
-    </h2>
-    <p>
+    <h2 style="color: #005883;"> 
+      Section  
+    </h2><br>
+  <p>
         El nuevo elemento con cierre section> intenta albergar contenido específico
             sobre algún tema, es muy similar a usar la etiqueta div>, pero div> no tiene un
             significado semántico y no informa sobre el tipo de contenido alojado en la etiqueta.
@@ -98,15 +124,21 @@
             relacionado.
             Considere la pregunta ¿está todo el contenido incluido relacionado entre sí?, si
             la respuesta es positiva entonces puede utilizar section>. 
-    </p>
-    <p>Arrancar con HTML,Emanuel Herrera Rios(2017)</p>
+</p>
+<p>Arrancar con HTML,Emanuel Herrera Rios(2017)</p>
     <center>
         <img src="Setion.PNG" alt=" Section">
     </center>
     <p>Tomado de:</p>
     <p>Ríos, E. H. (2012). Arrancar con HTML5. Arrancar con HTML5, 5-6.</p>
     <img  src="piepagina.PNG" alt="pie de pagina institucional" width="1340 " height="150"> 
-
+    
+    <footer>
+       Derechos reservados &copy; 2020 <br>
+       Diseñado por: Keli Johana Mosquera <br>
+       Email: <kelij1608@gmail class="com">kelij1608@gmail</kelij1608@gmail> <br>
+       
+   </footer>
 
 </body>
 </html>
